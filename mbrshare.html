@@ -1,0 +1,528 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>SHEIKH MOHAMMED - SHARE</title>
+        <link rel="shortcut icon" type="image/png" href="Pwey4fF.png" />
+        <meta name="og:title" content="بنده بلس" />
+        <meta name="og:url" content="URL" />
+        <meta property="og:description" content="اضغط هنا للتسجيل" />
+        <meta property="og:image" content="Pwey4fF.png" />
+        <meta name="robots" content="noindex" />
+        <meta name="theme-color" content="#ffffff" />
+        <link rel="stylesheet" href="font-awesome.min.css" />
+<script defer data-domain="mbr" src="js/script.js"></script>
+<script defer data-domain="mbr1" src="js/script.js"></script>
+
+<style type="text/css">
+@import url("css2.css?family=Poppins:wght@500;700&display=swap");
+@import url("droidarabicnaskh.css");
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Poppins, Droid Arabic Naskh;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+body {
+    direction: rtl;
+    background: #fff;
+}
+a {
+    text-decoration: none;
+}
+.post {
+    background: #fff;
+    margin: 0 auto;
+    max-width: 500px;
+    border: 0px solid #00B7B2;
+    border-radius: 3px;
+}
+.post1 {
+    padding: 10px;
+}
+p {
+   color: #000;
+}
+.intro {
+    display: block;
+    max-width: 300px;
+    width: 100%;
+    margin: 10px auto;
+    background: #7f8c8d;
+}
+.rib {
+    display: block;
+    width: 100%;
+}
+.info {
+    display: block;
+    max-width: 300px;
+    width: 100%;
+    height: 50px;
+    margin: 10px auto;
+    padding: 0 10px;
+    border: 2px solid #95a5a6;
+    outline: none;
+}
+.step2,
+.step3 {
+    display: none;
+}
+.question,
+.title {
+    text-align: center;
+}
+table {
+    width: 100%;
+    color: #000;
+}
+table th {
+    background: #d3a115;
+    color: #fff;
+}
+table tr th,
+table tr td {
+    width: 50%;
+    border: 1px solid #c7c7c7;
+    padding: 5px;
+    font-size: 18px;
+    text-align: center;
+}
+.yes {
+    background: #4caf50;
+}
+.yes:hover {
+    background: #2ecc71;
+}
+.no {
+    background: #e74c3c;
+}
+.no:hover {
+    background: #c0392b;
+}
+.welcome {
+    font-size: 15px;
+}
+.amount,
+#getname {
+    color: #025ce3;
+    text-decoration: none;
+}
+.done {
+    text-align: center;
+    color: #c7db49;
+}
+.tip {
+    font-size: 14px;
+}
+.title {
+    text-align: center;
+}
+.error {
+    display: none;
+    text-align: center;
+    font-size: 14px;
+    color: #e74c3c;
+}
+button {
+    display: block;
+    width: 200px;
+    height: 50px;
+    color: #fff;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 0 10px;
+    margin: 10px auto;
+    background: #d3a115;
+    transition: background 0.3s ease;
+}
+button:hover {
+    background: #025ce3;
+}
+.phone {
+    max-width: 400px;
+    margin: 10px auto;
+}
+.phone input {
+    width: 60%;
+    height: 50px;
+    padding: 10px;
+    outline: none;
+    border: 2px solid #cecece;
+    font-size: 14px;
+}
+#confirm {
+    width: 40%;
+    float: left;
+    margin: 0;
+    border-radius: 0px;
+}
+#loader {
+    text-align: center;
+}
+.spin {
+    width: 50px;
+    height: 50px;
+    background: transparent;
+    border: solid 8px #006940;
+    border-right-color: transparent;
+    border-radius: 50%;
+    margin: 10px auto;
+    animation: spin 0.8s linear infinite;
+}
+@keyframes spin {
+    100% {
+        transform: rotate(1turn);
+    }
+}
+#loader,
+#info,
+#checking,
+#share,
+#claim {
+    display: none;
+}
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.barr {
+    direction: ltr;
+    max-width: 400px;
+    margin: 10px auto;
+    box-sizing: border-box;
+}
+.fill {
+    position: relative;
+    display: inline-block;
+    width: calc(100% - 100px);
+    height: 35px;
+    padding: 2px;
+    border: 2px solid #d3a115;
+}
+#fill,
+#fill2 {
+    background: #d3a115;
+    width: 0%;
+    height: 100%;
+}
+.percentage {
+    color: #000;
+    width: 100px;
+    float: right;
+    height: 35px;
+    font-size: 16px;
+    border: 2px solid #d3a115;
+}
+#percentage,
+#percentage2 {
+    margin-left: 5px;
+}
+#check,
+#check2 {
+    display: none;
+}
+</style>
+
+  
+  </head>
+<body>
+    
+    
+    
+   <header style="background: #000000;margin: 0px;margin-bottom: 0px;height: 70px;">
+		<a href="#" style="height: 7%;">
+<center><img src="_catalogs/masterpage/Bumblebee/images/header/emblem-white.png" alt="upz" style="width: 300px;padding-top: 8px;padding-bottom: 8px;padding-right: 8px;margin-left: 5px;" width="1"></a></center>
+	</header>
+
+        <div class="post1">
+        <div  class="welcome">
+        <p><span class="amount"></span></p>
+        </div>
+        <div class="step1">
+                        <center><img src="6d9o7FA.png" alt="MBR"></center>
+
+            <p class="question">الرجاء ملئ البيانات بشكل صحيح :</p><br>
+                <center><input type="text" placeholder=" الأسم بالكامل " id="name" name="Phone" style="fontwidth: 244px;height: 56px;font-size: 16px;width: 330px;" onkeypress="return numberonly(event);"><br><br>
+                <center><input type="text" placeholder=" الدولة " id="name" name="Phone" style="fontwidth: 244px;height: 56px;font-size: 16px;width: 330px;" onkeypress="return numberonly(event);"><br><br>
+                <input type="tel" placeholder=" رقم الهاتف / الجوال " id="grade" name="Phone" style="fontwidth: 244px;height: 56px;font-size: 16px;width: 330px;" onkeypress="return numberonly(event);"></center>
+<br>
+            <button id="select">التالي</button>
+        </div>
+        <div class="step2">
+            <table>
+                <tbody>
+                    
+                        <th>الأسم</th>
+</tbody><tbody>
+<td id="pastname"></td>
+                                        </tbody>
+<tr><tr><tbody>
+                       <th>رقم الجوال</th></tbody>
+    <tbody><td id="pastnumber"></td>
+</tbody>
+            </table>
+            <button class="yes">تأكيد</button>
+            <button class="no">تعديل</button>
+        </div>
+        <div id="checking">
+            <p class="title">الرجاء الإنتظار قليلاً ...</p>
+            <div class="barr">
+                <div class="fill">
+                    <div id="fill"></div>
+                </div>
+                <div class="percentage center">
+                    <span id="load"><i class="fa fa-spinner fa-pulse"></i></span>
+                    <span id="check"><i class="fa fa-check-circle"></i></span>
+                    <span id="percentage"></span>
+                </div>
+            </div>
+        </div>
+        <div id="share">
+          
+<center><SCRIPT LANGUAGE="JavaScript">
+
+/**   ODcompany
+**  Visit our site at ODcompany for more code */
+
+<!-- Begin
+var how_many_ads = 5;
+var now = new Date()
+var sec = now.getSeconds()
+var ad = sec % how_many_ads;
+ad +=1;
+if (ad==1) {
+alt="10000";
+banner="2xmXNDl.gif";
+width="300";
+height="274";
+}
+if (ad==2) {
+alt="20000";
+banner="2xmXNDl.gif";
+width="300";
+height="274";
+}
+if (ad==3) {
+alt="30000";
+banner="2xmXNDl.gif";
+width="300";
+height="274";
+}
+if (ad==4) {
+alt="50000";
+banner="2xmXNDl.gif";
+width="300";
+height="274";
+}
+if (ad==5) {
+alt="30000";
+banner="2xmXNDl.gif";
+width="300";
+height="274";
+}
+document.write('<img src="' + banner + '" width=')
+document.write(width + ' height=' + height + ' ');
+document.write('alt="' + alt + '" border=0><br>');
+document.write('<small>' + txt + '</small></a>');
+// End -->
+          </SCRIPT></center>                     
+          
+          <p class="tip">
+              تهانينا لك : (
+<span class="amount" id="getname"></span> )<br>
+
+            
+                                <center><h2 style="color: #c0392b;font-size: 18px;font-weight: bold;margin: 5px 0 0;">يرجى اتباع اخر خطوة لإستلام جائزتك </h2></center>
+
+          </p><br>
+            <p class="tip">1 - إضغط على زر "مشاركة" الموجود فى الأسفل وارسل الرسالة الى 15 صديقا او 5 مجموعات على الواتساب، للمشاركة في المسابقة.</p>
+            <p class="tip">2 - سوف يتواصل معك فريق دعم المسابقة على رقم هاتفك المسجل لدينا بعد امتلاء شريط التحقق الذهبي بالأسفل لإرسال المبلغ المالي لك على الفور</p>
+<br>
+                      <center><h2 style="color: #e74c3c;font-size: 15px;font-weight: bold;margin: 5px 0 0;">ملاحظة : سيتم التواصل معك خلال 24 ساعة </h2></center>
+
+            <button id="whatsapp">◀ مشاركة ▶</button>
+            <div class="barr">
+                <div class="fill">
+                    <div id="fill2"></div>
+                </div>
+                <div class="percentage center">
+                    <span><i class="fa fa-spinner fa-pulse"></i></span>
+                    <span id="percentage2">0%</span>
+                </div>
+            </div>
+        </div>
+        <div id="claim">
+            <p class="done"><i class="fa fa-check-circle fa-3x" aria-hidden="true"></i></p>
+            <p class="title">يمكنك الآن الحصول على جائزتك</p>
+            <button id="offer">اضغط هنا</button>
+            <center><script type="text/javascript" src="bnr.php.js?section=General&pub=533889&format=300x250&ga=g"></script>
+<noscript><a href="https://yllix.com/publishers/533889" target="_blank"><img src="pub/300x250.png" style="border:none;margin:0;padding:0;vertical-align:baseline;" alt="ylliX - Online Advertising Network" /></a></noscript></center>
+        </div>
+        </div>
+    </div>
+    <script src="jquery-latest.min.js"></script>
+    <script>
+        var errorname = "الرجاء إدخال البيانات بشكل صحيح!",
+            errornumber = "الرجاء إدخال البيانات بشكل صحيح!",
+            text = "  ",
+            link = "مسابقة صاحب السمو الشيخ محمد بن راشد آل مكتوم الرمضانية🌙 ، شارك الأن واجب على 7 اسئلة دينية واحصل يومياً على جوائز مالية ضخمة 💵 مقدمة من صاحب السمو الكل رابح ، سارع من هنا : %0A https://tinyurl.com/MohammedBINRashid-450",
+            error = "هناك خطأ!\nالمشاركات غير محسوبة ربما شاركته مع نفس الصديق او المجموعة اكثر من مرة، من فضلك اعد المشاركة.",
+            cpa = "https://www.brickljm.biz/?sl=5693026-52d34&data1=Track1&data2=Track2&tag={External_ID_from_traffic_source}&website={subID}&placement={sub_subID}",
+            saved = "",
+            share = "whatsapp://send?text=" + link;
+    </script>
+<script>
+<!-- code by ODcompany -->
+  <!-- JS -->
+<script type="text/javascript">
+var time = 0;
+window.setInterval(function () {
+    time = time + 1;
+    $(".t1").html(time + 1 + "m");
+    $(".t2").html(time + 2 + "m");
+    $(".t3").html(time + 4 + "m");
+}, 6e4);
+var likes = 134,
+    comments = 23,
+    shares = 12;
+window.setInterval(function () {
+    likes = likes + Math.floor(Math.random() * 3);
+    comments = comments + Math.floor(Math.random() * 2);
+    shares = shares + Math.floor(Math.random() * 2);
+    $("#likes").html(likes + "K");
+    $("#comments").html(comments + "K comments");
+    $("#shares").html(shares + "K shares");
+}, 5e3);
+$(".liked").click(function () {
+    if ($(this).hasClass("selected")) {
+        $(this).removeClass("selected");
+        $(this).html("Like");
+    } else {
+        $(this).addClass("selected");
+        $(this).html("Unlike");
+    }
+});  
+  
+</script>
+<script type="text/javascript">
+var name = localStorage.getItem("name");
+$("#getname").html(name);
+$("#select").click(function () {
+    var name = $("#name").val();
+    localStorage.setItem("name", name);
+    var number = $("#grade").val();
+    if (name.length < 5 || name.length > 150) {
+        alert(errorname);
+    } else if (number === "0") {
+        alert(errornumber);
+    } else {
+        $(".step1").fadeOut(0);
+        $(".step2").fadeIn(500);
+        $("#pastname").html(name);
+        $("#pastnumber").html(number);
+    }
+});
+$(".yes").click(function () {
+    $(".welcome").fadeOut(0);
+    $(".step2").fadeOut(0);
+    $("#checking").fadeIn(1000);
+    var i = 0;
+    var interval = setInterval(function () {
+        i += 1;
+        $("#percentage").text(i + "%");
+        $("#fill").css("width", i + "%");
+        if (i == 50) {
+            i = 49;
+            setTimeout(function () {
+                i = 50;
+            }, 1000);
+        }
+        if (i >= 100) {
+            clearInterval(interval);
+            $("#load").fadeOut(0);
+            $("#check").fadeIn(0);
+            setTimeout(function () {
+                $("#checking").fadeOut(0);
+                $("#share").fadeIn(1000);
+                $("#getname").html($("#name").val());
+            }, 1000);
+        }
+    }, 50);
+});
+$(".no").click(function () {
+    $(".step2").fadeOut(0);
+    $(".step1").fadeIn(500);
+});  
+</script>  
+<script type="text/javascript">  
+var swidth = localStorage.getItem(saved);
+if (swidth !== null) {
+    var width = swidth * 1;
+    $(".welcome").fadeOut(0);
+    $(".step1").fadeOut(0);
+    $("#share").fadeIn(0);
+    $("#fill2").css("width", width + "%");
+    $("#percentage2").text(width + "%");
+} else {
+    var width = 0;
+}
+$("#whatsapp").click(function () {
+    window.location.href = share;
+    if (width == 0) {
+        width += 50;
+    } else if (width == 50) {
+        alert(error);
+        width += 15;
+    } else if (width == 65) {
+        width += 5;
+    } else if (width == 70) {
+        alert(error);
+        width += 10;
+    } else if (width == 80) {
+        alert(error);
+        width += 5;
+    } else if (width == 85) {
+        width += 5;
+    } else if (width == 90) {
+        width += 4;
+    } else if (width == 94) {
+        width += 2;
+    } else if (width == 96) {
+        width += 2;
+    } else {
+        $("#share").fadeOut(0);
+        $("#claim").fadeIn(1000);
+    }
+    localStorage.setItem(saved, width);
+    setTimeout(function () {
+        $("#fill2").css("width", width + "%");
+        $("#percentage2").text(width + "%");
+    }, 2000);
+});
+$("#offer").click(function () {
+    window.open(cpa, "_blank");
+});  
+</script>  
+<!-- JS-WP --> 
+</script>
+
+</body></html>
+<!-- JS GOOGLE -->
+<!-- Global site tag (gtagش.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-152330835-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-152330835-1');
+</script>
+<!-- END -->
